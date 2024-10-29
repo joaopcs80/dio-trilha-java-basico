@@ -1,18 +1,50 @@
-## Getting Started
+# 🏦 Projeto ContaBanco
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este projeto faz parte da trilha de estudos de Java na plataforma [Digital Innovation One](https://www.dio.me/), e foi desenvolvido para praticar conceitos básicos de manipulação de dados via terminal, uso de variáveis, tipos de dados e formatação de strings.
 
-## Folder Structure
+## 📋 Descrição
 
-The workspace contains two folders by default, where:
+O **ContaBanco** é uma aplicação de console que simula a criação de uma conta bancária. O usuário insere dados como o número da conta, agência, nome do cliente e saldo inicial, e o sistema exibe uma mensagem personalizada com os dados fornecidos, simulando a finalização de cadastro.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+### Exemplo de Fluxo do Programa
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+1. O programa solicita os dados do usuário:
+    - Número da Conta
+    - Número da Agência
+    - Nome do Cliente
+    - Saldo Inicial
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+2. Após a inserção dos dados, uma mensagem de boas-vindas é exibida, confirmando o sucesso do cadastro da conta bancária.
 
-## Dependency Management
+### Exemplo de Saída
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+```plaintext
+Olá MARIO ANDRADE, obrigado por criar uma conta em nosso banco, sua agência é 067-8, conta 1021 e seu saldo 237.48 já está disponível para saque.
+```
+
+## 🚀 Funcionalidades
+
+- Leitura de dados do usuário via terminal com `Scanner`.
+- Armazenamento de dados em variáveis.
+- Exibição de uma mensagem de confirmação utilizando concatenação de strings.
+
+## 🛠️ Tecnologias Utilizadas
+
+- **Java** - Linguagem de programação.
+- **Scanner** - Para entrada de dados do usuário via terminal.
+- **Concatenação de Strings** - Para personalizar a mensagem final exibida ao usuário.
+
+## 📂 Estrutura de Arquivo
+
+O projeto possui a seguinte estrutura:
+
+```
+ContaBanco/
+├── ContaTerminal.java
+└── README.md
+```
+
+## 📝 Como Executar
+
+1. Compile o arquivo `ContaTerminal.java`.
+2. Execute o programa e insira os dados solicitados diretamente no terminal.
