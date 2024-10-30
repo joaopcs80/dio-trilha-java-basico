@@ -13,7 +13,7 @@ public class Contador {
 			//chamando o método contendo a lógica de contagem
 			contar(parametroUm, parametroDois);
 		
-		}catch (InputMismatchException E) {
+		}catch (ParametrosInvalidosException E) {
 			//imprimir a mensagem: O segundo parâmetro deve ser maior que o primeiro
 			System.out.println("Erro: Entrada inválida. Por favor, digite apenas números inteiros.");
 		}
